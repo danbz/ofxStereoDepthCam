@@ -27,4 +27,15 @@ class ofApp : public ofBaseApp{
     ofImage imgRx;
     ofImage imgDptBM;
     ofImage imgDptSGBM;
+    
+    
+    
+    ofVideoGrabber vidGrabber;
+    
+    ofImage grabbedImage, colorImage, disparityImage;
+    bool b_zed, b_paintMesh, b_drawSource;
+    ofMesh mesh;
+    
+    ofEasyCam easyCam;
+
 };
